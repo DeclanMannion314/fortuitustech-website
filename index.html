@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fortuitus Tech | Websites, Booking Apps and Custom Software</title>
+<meta name="description" content="Fortuitus Tech builds websites, booking apps and custom software for small businesses.">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <a href="#home" class="mark"><img src="logo.jpg" alt="Fortuitus Tech"></a>
+  <nav class="nav">
+    <a href="#build">Build</a>
+    <a href="#process">Process</a>
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="nav-cta">Contact</a>
+  </nav>
+</header>
+
+<main id="home">
+
+  <section class="hero">
+    <img class="hero-logo" src="logo.jpg" alt="Fortuitus Tech logo">
+    <p class="kicker">Software for small businesses</p>
+    <h1>If it slows your business down, I can build something to fix it.</h1>
+    <a href="#contact" class="btn">Start a conversation</a>
+  </section>
+
+  <section class="block" id="build">
+    <div class="wrap">
+      <p class="label">What I build</p>
+      <ol class="rows">
+        <li>
+          <span class="num">01</span>
+          <div>
+            <h2>Websites</h2>
+            <p>Clear, fast sites that work on every phone and tell customers who you are and how to reach you.</p>
+          </div>
+        </li>
+        <li>
+          <span class="num">02</span>
+          <div>
+            <h2>Booking and job apps</h2>
+            <p>Customers send their details online. The job lands in a dashboard on your phone with an email alert, so nothing gets forgotten.</p>
+          </div>
+        </li>
+        <li>
+          <span class="num">03</span>
+          <div>
+            <h2>Custom applications</h2>
+            <p>Doing something by hand, on paper or in a spreadsheet? Tell me about it and I can build a tool that does it for you.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block alt" id="process">
+    <div class="wrap">
+      <p class="label">How it works</p>
+      <div class="steps">
+        <div class="step"><h3>You tell me the problem</h3><p>A quick chat about what your business needs and where jobs get lost.</p></div>
+        <div class="step"><h3>I build it</h3><p>You see it working early and tell me what to change.</p></div>
+        <div class="step"><h3>It goes live</h3><p>I set it up, show you how to use it, and stay on hand if anything needs changing.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="work">
+    <div class="wrap">
+      <p class="label">Recent work</p>
+      <div class="work">
+        <article>
+          <h2>Flooring contractor</h2>
+          <p class="tag">Booking app</p>
+          <p>A booking form for customers, and a phone friendly dashboard where the owner sees each job, puts it in a calendar, and marks it done.</p>
+        </article>
+        <article>
+          <h2>Property services company</h2>
+          <p class="tag">Website and booking app</p>
+          <p>An information website with the services and areas covered, linked to an online job request form and a private owner dashboard.</p>
+        </article>
+        <article>
+          <h2>Personal projects</h2>
+          <p class="tag">Apps</p>
+          <p>A budgeting app and an adaptive fitness app, built from scratch. The code is on my GitHub.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt" id="about">
+    <div class="wrap split">
+      <div>
+        <p class="label">About</p>
+        <h2 class="big">Built by someone who works for a living.</h2>
+      </div>
+      <div>
+        <p>I'm Declan, a software engineering graduate. I also work on construction sites and on a dairy farm, so I know how busy a working day is and how easy it is for a job to get lost in a missed call.</p>
+        <p>That is why the things I build are simple, work on a phone, and do one job well.</p>
+        <ul class="tools">
+          <li>JavaScript</li><li>Node.js</li><li>Python</li><li>HTML and CSS</li><li>MongoDB</li><li>Express</li><li>Git</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block contact" id="contact">
+    <div class="wrap">
+      <p class="label">Contact</p>
+      <h2 class="big">Got something that needs building?</h2>
+      <a id="email-link" class="email" href="#">EMAIL</a>
+      <p class="small"><a href="https://github.com/DeclanMannion314" target="_blank" rel="noopener">GitHub: DeclanMannion314</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer"><p>Fortuitus Tech</p></footer>
+
+<script>
+// Change this one line to your contact email
+const EMAIL = 'declanmannion@fortitustech.com';
+const link = document.getElementById('email-link');
+link.href = 'mailto:' + EMAIL;
+link.textContent = EMAIL;
+</script>
+
+</body>
+</html>
