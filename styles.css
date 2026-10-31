@@ -90,5 +90,46 @@ a { color: inherit; }
   .email { font-size: 1.8rem; }
 }
 
+.hero-logo { clip-path: inset(3px); }
+
 .hero h1 { max-width: 960px; text-wrap: balance; }
 @media (min-width: 760px) { .hero h1 { font-size: 2.4rem; } }
+
+/* Packages */
+.packs { display: grid; gap: 20px; }
+.pack { border: 1px solid #333; padding: 28px 24px; display: flex; flex-direction: column; }
+.pack h2 { margin: 0 0 8px; font-size: 1.35rem; font-weight: 600; }
+.for { margin: 0 0 18px; color: #999; font-size: 0.95rem; }
+.pack ul { margin: 0 0 24px; padding-left: 18px; color: #ccc; flex: 1; }
+.pack li { margin-bottom: 8px; }
+.btn-line { background: transparent; color: #fff; border: 1px solid #fff; text-align: center; }
+.btn-line:hover { background: #fff; color: #000; }
+.small-note { margin: 24px 0 0; color: #888; font-size: 0.9rem; }
+
+/* Customers */
+.lead { max-width: 620px; color: #aaa; margin: 0 0 36px; }
+.work h3 { margin: 0 0 4px; font-size: 1.3rem; font-weight: 600; }
+.links { margin: 16px 0 0 !important; display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.visit { color: #fff; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid #fff; padding-bottom: 2px; text-decoration: none; }
+.visit:hover { color: #bbb; border-color: #bbb; }
+
+@media (min-width: 760px) { .packs { grid-template-columns: repeat(3, 1fr); } }
+
+/* Customer projects with screenshots */
+.project { padding: 40px 0; border-top: 1px solid #2a2a2a; }
+.project:last-of-type { border-bottom: 1px solid #2a2a2a; }
+.project h3 { margin: 0 0 4px; font-size: 1.3rem; font-weight: 600; }
+.project-text p:last-child { margin: 0 0 24px; color: #aaa; max-width: 560px; }
+.shots { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 8px; align-items: flex-start; -webkit-overflow-scrolling: touch; }
+.shots figure { margin: 0; flex: 0 0 auto; }
+.shots img { display: block; border: 1px solid #333; border-radius: 8px; }
+.shots .phone { height: 420px; width: auto; }
+.shots .desk { height: 250px; width: auto; }
+.shots figcaption { margin-top: 8px; font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; color: #777; }
+.more { margin: 28px 0 0; color: #888; font-size: 0.9rem; }
+.more a { color: #fff; }
+@media (min-width: 760px) {
+  .shots { gap: 18px; }
+  .shots .phone { height: 310px; }
+  .shots .desk { height: 190px; }
+}
