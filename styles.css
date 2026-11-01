@@ -99,6 +99,8 @@ a { color: inherit; }
 .packs { display: grid; gap: 20px; }
 .pack { border: 1px solid #333; padding: 28px 24px; display: flex; flex-direction: column; }
 .pack h2 { margin: 0 0 8px; font-size: 1.35rem; font-weight: 600; }
+.price { margin: 0 0 8px; font-size: 1.6rem; font-weight: 600; }
+.price span { display: block; font-size: 0.85rem; font-weight: 400; color: #999; margin-top: 2px; }
 .for { margin: 0 0 18px; color: #999; font-size: 0.95rem; }
 .pack ul { margin: 0 0 24px; padding-left: 18px; color: #ccc; flex: 1; }
 .pack li { margin-bottom: 8px; }
@@ -113,7 +115,7 @@ a { color: inherit; }
 .visit { color: #fff; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid #fff; padding-bottom: 2px; text-decoration: none; }
 .visit:hover { color: #bbb; border-color: #bbb; }
 
-@media (min-width: 760px) { .packs { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 760px) { .packs { grid-template-columns: repeat(2, 1fr); } }
 
 /* Customer projects with screenshots */
 .project { padding: 40px 0; border-top: 1px solid #2a2a2a; }
